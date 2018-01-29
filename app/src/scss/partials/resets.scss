@@ -1,0 +1,33 @@
+// Дополнительные сбросы стилей
+// основано на моём опыте
+
+ul, ol, li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+html, body {
+  min-height: 100vh;
+}
+
+body {
+  box-sizing: border-box
+}
+
+*, *::after, *::before {
+	box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-decoration: none !important
+}
+
+ul, ol, li,
+a, a:visited, p, span,
+button,
+td, tr {
+	text-decoration: none !important
+}
